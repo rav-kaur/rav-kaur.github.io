@@ -142,7 +142,6 @@ ul li span {
     text-align: center;
 }
 
-.footer {}
 
 .footer p {
     color: white;
@@ -213,7 +212,6 @@ ul li span {
 /* Larger than desktop */
 
 @media (min-width: 1000px) {
-    .footer {}
     .cta {
         position: fixed;
         bottom: 0px;

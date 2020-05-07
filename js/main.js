@@ -1,21 +1,4 @@
 $(document).ready(function(){
-  
-    $.getJSON("https://cpv2api.herokuapp.com/posts/published/j-w-v", function(resp){
-      if(resp.success){
-        for (var i = 0; i < resp.data.length; i++) { 
-        $('.posts ul').append('<li><a target="_blank" href="' + resp.data[i].link +'">' + resp.data[i].title + ' <span> ' +resp.data[i].views+ ' views</span> </a></li>');
-        }
-      }
-    });
-    
-    $.getJSON("https://cpv2api.herokuapp.com/pens/showcase/j-w-v", function(resp){
-      if(resp.success){
-        for (var i = 0; i < 5; i++) { 
-        $('.pens ul').append('<li><a target="_blank" href="' + resp.data[i].link +'">' + resp.data[i].title + ' <span> ' +resp.data[i].views+ ' views</span> </a></li>');
-        }
-      }
-    }); 
-    
     
     particlesJS("particles-js", {
       "particles": {
