@@ -28,7 +28,7 @@ a:hover {
 }
 
 h1 {
-    color: #fc3565;
+    color: #cc33ff;
     padding-bottom: 0px;
     margin-bottom: 1%;
 }
@@ -94,7 +94,7 @@ input, textarea {
 
 
 ul {
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 li {
@@ -112,17 +112,6 @@ ul li span {
 
 .smallLogo {
     font-size: 3.5rem;
-}
-
-.services h2 {
-    color: #fc3565;
-    padding-bottom: 1.5rem;
-    font-size: 2rem;
-}
-
-.services .title {
-    color: #DEDEDE;
-    font-size: 3rem;
 }
 
 .u-full-width {
